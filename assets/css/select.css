@@ -1,0 +1,660 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+a {
+    text-decoration: none;
+}
+p{
+    text-align: left;
+}
+
+/*.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}*/
+.fxhdr{
+/*     margin: auto 0;*/
+   
+    z-index: 999;
+    position: fixed !important;
+    width: 100%;
+    height: 60px;
+   background-color: #171B2C !important;
+}
+b{
+    color:#006cb5 ;
+}
+.co{
+    padding-top: 60px !important;
+    position: relative;
+}                
+.btn{
+    color: #ffffff !important;
+    border: .5px solid #ffffff !important;
+    font-weight: 200 !important;
+}
+.btn1
+{
+    padding: 5px 10px!important;
+    font-size: 12px!important;
+}
+.logo img{
+    margin-top:15px;
+}
+
+.button{
+    padding: 15px 10px 8px 10px;
+    margin-top:0px;
+}
+.btn-secondary{
+    background-color: #006cb5 !important;
+    font-size: 22px;
+   
+    margin-bottom: 10px;
+    padding: 5px 20px;
+    text-align: left;
+}
+
+.table{
+    background-color: #f0f6ff;
+
+}
+.plus{
+
+  width: 100%;
+}
+button.plus{
+    border: none !important;
+    background-color: #fff !important;
+}
+.dropdown-menu{
+/*    padding:  5px;*/
+    margin-left: 10px;
+    width: 40%;
+    
+}
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+     padding: var(--bs-modal-padding);
+     top: 50%;
+     right: 50%; 
+}
+.dropdown-menu li a{
+    text-align: left !important;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid #006cb5;
+    font-size: 20px ; 
+    
+}
+.dropdown-menu[data-bs-popper] {
+    top: 82%;
+    border: 2px solid #006cb5;
+}
+
+.dropdown-menu li a:hover{
+    background-color:#fcc300;
+    color: #1e1e1e;
+}
+
+.pa{
+    display: flex;
+
+}
+
+.net{
+box-shadow: 0 10px 10px #c8c8c9;
+ margin-top: -8px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-bottom: 20px;
+
+}
+.course h2{
+    color:#efb903;
+    font-family: 'Hind Siliguri', sans-serif ! important;
+    font-size:22px;
+}
+.vii{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    padding: 10px 0px;
+}
+.pet{
+    display: flex;
+}
+.rupees a{
+    width: 400px;
+    height: 33px;
+}
+
+.rupees h4{
+    color: #404245;
+   
+    font-weight: 500;
+}
+.mm i{
+   padding-top: 15px;
+   
+}
+
+/*.enroll{
+    background-color: #006cb5;
+    color: #fff;
+}*/
+.para{
+    background-color: #f0f6ff;
+     margin-top: 10px;
+     margin-bottom: 0px;
+     color: #fff;
+     display: flex;
+    }
+.video{
+    background-color:#f0f6ff;
+    margin-bottom: 10px;
+}
+.para i{
+    padding: 10px;
+    height: 25px;
+    width: 25px;
+    background-color:#006cb5;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: 5px;
+    font-size: 10px;
+    line-height: 4px;
+}
+.para h6{
+    padding-top: 13px;
+    padding-left: 10px;
+    color: #404245;
+  
+
+   font-family: 'Hind Siliguri', sans-serif;
+
+}
+.gif{
+    position: absolute;
+    top: 6.5%;
+    right: 47%;
+   z-index: 998;
+   transform: rotate(112deg);
+}
+.ss{
+    position: absolute;
+    top: 14%;
+    right: 47%;
+   z-index: 998;
+   transform: rotate(112deg);
+}
+
+accordion accordion-flush{
+    position: relative;
+}
+.bulb h6{
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 22px;
+  color: #fcc300;
+  padding-bottom: 10px;
+  padding-left: 38px;
+  padding-top: 10px;
+}
+.blu p{
+
+}
+.vii{
+    margin-top: 5px;
+}
+
+.accordion-button{
+	padding: 10px;
+    padding-left: 10px;
+    background-color: #006cb5;
+    padding-right: 10px;
+    margin-bottom: 20px;
+
+}
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 0;
+    color: #fff;
+}
+
+#cds:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    transform: rotate(0deg);
+ }
+ #cds::after{
+    transform: rotate(-90deg);
+ }
+.sample h4{
+    background-color: #fcc300;
+    font-size: 20px;
+    padding: 10px;
+}
+.sample h5{
+    color: #006cb5;
+     font-family: 'Hind Siliguri', sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.sample{
+    margin-bottom: -10px;
+}
+.tab{
+   margin-top: 40px;
+}
+.tab h5{
+      background-color: #fcc300;
+      padding: 10px;
+      font-family: 'Hind Siliguri', sans-serif;
+       font-size: 22px;
+}
+
+.tick{
+ 
+     margin-top: -10px;
+     margin-bottom: 0px;
+     color: #006cb5;
+     display: flex;
+     padding-top: 15px;
+     padding-left: 10px;
+     
+    }
+    .tick h6{
+        color: #404245;
+        padding-left: 10px;
+        font-family: 'Noto Serif Bengali', serif;
+        font-size: 18px;
+    }
+.course h5 {
+    text-align: left;
+    font-size: 22px ;
+    font-weight: 400;
+    color: #006cb5;
+    
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    /*margin-left: 26em;*/
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 9px solid;
+    border-right: 9px solid transparent;
+    border-bottom: 9px;
+    border-left: 9px solid transparent;
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+.co h5 {
+    text-align: left;
+    font-size: 22px ;
+    font-weight: 400;
+    color: #006cb5;
+    
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.course h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 7px;
+   
+   }
+.blu{
+    display: flex;
+}
+
+
+/*.course h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #404245;
+    padding-top: 10px;
+    background-color: #fcc300;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+*/
+.course span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    padding-left: 10px;
+}
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+  background-color: var(--bs-accordion-active-bg);
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color); */
+}
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: #006cb5;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+    
+}
+.vii img{
+    width: 100%;
+}
+.course-details {
+    
+    margin-top: 5px;
+    box-shadow: 0 0 5px #006cb5;
+    transition: all .3s;
+   
+}
+/*.course-details:hover{
+    box-shadow: 0 0 15px #a57fc8a1;
+    transition: all .3s;
+}*/
+
+.accordion-body{
+    padding: 5px 10px;
+}
+/*.accordion-button:not(.collapsed){
+    background-color: transparent;
+}*/
+.course p {
+    font-size: 18px;
+   
+    color: #1e1e1e;
+    padding-top: 0px;
+    /*padding-left: 20px;
+     padding-right: 20px;*/
+    font-family: 'Noto Serif Bengali', serif;
+
+}
+.sp{
+    background-color:#006cb5;
+    color: #fff;
+    padding: 15px;
+    border-radius: 2px;
+}
+.co p {
+    font-size: 18px;
+   
+    color: #1e1e1e;
+    padding-top: 0px;
+    
+    font-family: 'Noto Serif Bengali', serif;
+
+}
+.bulb{
+    background-color:#006cb5;
+    padding: 10px 20px;
+}
+.bulb p{
+    color: #fff;
+    padding-left: 10px;
+   
+}
+.mm{
+    display: flex;
+    padding-bottom: 0px;
+    padding-top: 5px;
+
+}
+.mm i {
+    color: #006cb5;
+    margin-right: 20px;
+}
+
+.rupees a {
+    display: block;
+    width: 80%;
+    height: 30px;
+    border-radius: 4px;
+   background-color: #006cb5;
+
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.enroll a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+   background-color: #006cb5;
+   padding-top: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.course a:hover{
+    background-color: #006cb5;
+    color: #fff;
+   
+    
+}
+.rupees h6 {
+    font-family: 'Hind Siliguri', sans-serif;
+    padding-top: 10px;
+}
+.gap {
+    margin-top: 20px;
+}
+.arrow{
+    width: 50px;
+}
+.arrow img {
+    width: 100%;
+}
+
+.new-style h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #A882CB;
+    padding-top: 15px;
+}
+.youtube{
+    position: fixed;
+    z-index: 999;
+  
+}
+.course span {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1e1e1e;
+    padding-left: 10px;
+  
+}
+.rupees{
+    padding: 10px 20px;
+    background-color: #f0f6ff;
+    width: 100%;
+   
+    
+}
+.new-style h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #A882CB;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+.imge img{
+    width: 100%;
+}
+
+.copy{
+    margin-top: 20px;
+    background-color: #171B2C !important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+   position: relative;
+    z-index: 999
+   
+}
+.copy h6{
+    color: #797979;
+    
+        font-weight: 400;
+           font-size: 12px;
+}
+.youtubes{
+    display: none;
+}
+@media screen and (max-width: 991px) {
+    .vii img{
+        width: 100%;
+    }
+    .course p{
+        padding-top: 10px;
+    }
+/*.course h5 {
+    font-size: 18px;
+  }*/
+  .accordion-button {
+    margin-bottom: -2px !important;
+  }
+  p {
+    margin-top: 0;
+     margin-bottom: 0!important; 
+}
+.dropdown-menu {
+    
+    width: 65%;
+}
+
+.imge img {
+    width: 100%;
+}
+
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    margin-bottom: 10px !important;
+}
+
+.vv{
+    position: relative;
+}
+.cc{
+    position: relative;
+}
+.mm i{
+    padding-top: 15px;
+}
+
+.imge img{
+
+    margin-bottom: 20px;
+}
+.co{
+    width: 100% !important;
+}
+.vii{
+    width: 100%;
+}
+}
+@media screen and (max-width: 767px) {
+    .course h5 {
+    text-align: left;
+    font-size: 18px
+}
+.copy{
+    width: 100%;
+}
+.sample h5 {
+    margin-top: 20px;
+}
+.ll{
+    padding-top: 15px;
+}
+
+.imge img{
+    margin: auto;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.co{
+    width: 100%;
+}
+.vii img{
+    width: 100%;
+ 
+}
+.rupees{
+    width: 100%;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 10px !important;
+}
+.rupees{
+    padding: 10px ;
+    
+}
+.dropdown-menu {
+    
+    min-width: 72%;
+}
+.dropdown-toggle::after {
+       margin-left: 10em !important;
+}
+
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    margin-bottom: 10px !important;
+}
+.mm h6{
+   padding-top: 15px;
+   
+}
+.vii{
+    width: 100%;
+}
+.imge img{
+
+    margin-bottom: 20px;
+}
+.btn-secondary{
+    
+    width: 391px !important;
+}
+.youtubes{
+/*    position: fixed;*/
+    display: block;
+    
+}
+.rupees a {
+    display: block;
+    width: 100%;
+    height: 39px;
+}
+
+.gif{
+    position: absolute;
+    top: 3.5%;
+    right: 12%;
+   
+}
+.ss{
+    position: absolute;
+    top: 8.5% !important;
+    right: 12% !important;
+   
+}
+}
